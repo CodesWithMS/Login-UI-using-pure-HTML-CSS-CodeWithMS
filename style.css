@@ -1,0 +1,127 @@
+body{
+    background: url(imgs/chair.jpg);
+    height: 641px;
+    background-image: linear-gradient(#fff,#fff,hotpink);
+}
+.main{
+    height: 400px;
+    background-color:orange;
+    background: url(imgs/25.jpeg);
+    background-image: linear-gradient(red,red,black);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    width: 50%;
+    border-radius: 10px;
+} 
+.form>h1{
+    text-align: center;
+}
+.container{
+    margin-left: 50%;
+}
+input[type=text]{
+    box-sizing: border-box;
+    width: 95%;
+    height:40px;
+    margin-bottom: 30px;
+    outline: none;
+    
+}
+input[type=password]{
+    box-sizing: border-box;
+    width: 95%;
+    height:40px;
+    outline: none;
+}
+button{
+    font-size: 15px;
+    font-style: sans-serif;
+    width: 120px;
+    height: 30px;
+    margin-left: 70px;
+    margin-top: 20px;
+    border: 1px solid black;
+    border-radius: 5px 5px 5px 5px;
+    outline: blue;
+    background:transparent;
+    color:black ;
+
+}
+button:hover{
+    fill: aqua;
+    transition: transform 0.2s ease-in-out;
+    transform: scale(1.05);
+    color: #fff;
+}
+img{
+    height: 250px;
+    width: 300px;
+    float: left;
+    position: absolute;
+    top: 15%;
+    left: 10px;
+}
+#res{
+    text-align: center;
+    color: greenyellow;
+    text-shadow: 2px 2px black;
+}
+.ims>a>h3>svg{
+    /* cursor: pointer; */
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    right: 4%;
+    top: 48%;
+}
+header{
+    position: relative;
+    background:#fff;
+    padding-bottom: 2px;
+    border-bottom: 1px solid hotpink;
+    width: 100%;
+    height: 35px;
+}
+header>.images>img{
+    width: 50px;
+    height: 50px;
+    position: relative;
+}
+header>h2{
+    position: absolute;
+    color:rgb(204, 8, 8);
+    top: 0%;
+    left: 55px;
+    margin: 0;
+    padding-top: 6px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header>.nav>li>a{
+    text-decoration: none;
+}
+header>.nav>li{
+    list-style: none;
+    margin-top: 10px;
+}
+header>.nav{
+    display: flex;
+    justify-content: end;
+    margin-right: 40px;
+    font-size: 20px;
+    gap: 20px;
+    
+}
+footer{
+    width: 100%;
+    height: 30px;
+    background-color: black;
+    color: #fff;
+    position: absolute;
+    bottom: 0%;
+    text-align: center;
+    padding-top: 10px;
+}
